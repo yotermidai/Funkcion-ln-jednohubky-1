@@ -14,3 +14,16 @@ const persons = [
 persons.forEach((item) => {
     console.log(item.age)
       });
+
+
+names.forEach((item) => {
+    console.log((item.charAt(0)))
+      });
+
+
+const ctyryPismena = names.every((item) => item.length > 3 );
+    console.log(ctyryPismena);
+
+const delitelneJedenacti = numbers.some((item) => item % 11 === 0);
+
+console.log(delitelneJedenacti);
